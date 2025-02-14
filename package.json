@@ -1,4 +1,7 @@
 {
+  "name": "hairday",
+  "description": "Aplicação Web para agendamentos de cortes de cabelo.",
+  "author": "Gabriel Lara Fanha",
   "scripts": {
     "server": "json-server --watch sever.json --port 3333"
   },
