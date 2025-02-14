@@ -3,10 +3,15 @@
   "description": "Aplicação Web para agendamentos de cortes de cabelo.",
   "author": "Gabriel Lara Fanha",
   "scripts": {
-    "server": "json-server --watch sever.json --port 3333",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack serve",
+    "server": "json-server --watch sever.json --port 3333"
   },
   "dependencies": {
     "json-server": "^1.0.0-alpha.21"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^4.15.1"
   }
 }
