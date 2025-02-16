@@ -1,3 +1,9 @@
 {
-  "schedules": []
+  "schedules": [
+    {
+      "id": 1739729805745,
+      "name": "Gabriel Lara Fanha",
+      "when": "2025-02-16T19:00:00.000Z"
+    }
+  ]
 }
