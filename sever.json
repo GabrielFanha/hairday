@@ -1,9 +1,14 @@
 {
   "schedules": [
     {
-      "id": 1739729805745,
+      "id": "1739729805745",
       "name": "Gabriel Lara Fanha",
       "when": "2025-02-16T19:00:00.000Z"
+    },
+    {
+      "id": 1739827214653,
+      "name": "gabriel lara fanha",
+      "when": "2025-02-17T22:00:00.000Z"
     }
   ]
 }
