@@ -11,10 +11,7 @@ export function hoursLoad({ date }) {
     const [scheduleHour, ] = hour.split(":")
 
     const isHourPast = dayjs(date).add(scheduleHour, "hour").isAfter(dayjs())
-    console.log({
-      hour,
-      available: isHourPast
-    })
+    
     return {
       hour,
       available: isHourPast

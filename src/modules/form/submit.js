@@ -25,7 +25,6 @@ form.onsubmit = async (event) => {
     }
 
     const hourSelected = document.querySelector(".hour-selected")
-    console.log(hourSelected)
     if(!hourSelected) {
       return alert(`Selecione a hora!`)
     }
